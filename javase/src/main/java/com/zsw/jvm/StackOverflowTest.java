@@ -1,4 +1,4 @@
-package com.zsw.JVM;
+package com.zsw.jvm;
 
 /**
  * JVM设置  -Xss128k(默认1M)

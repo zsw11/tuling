@@ -1,4 +1,4 @@
-package com.zsw.JVM;
+package com.zsw.jvm;
 
 /**
  * @author zsw
