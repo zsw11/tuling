@@ -10,6 +10,9 @@ public class Arthas {
         Double d1 = 1.0;
         Double d2 = 1.0;
         System.out.println(d1 == d2);//输出false
+        String s = "s";
+        String a = "s1";
+        a = "b";
         // 模拟 CPU 过高
         cpuHigh();
         // 模拟线程死锁
