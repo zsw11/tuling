@@ -38,7 +38,7 @@ public class Math {
             System.out.println("try:" + str);
             System.out.println("try is running......");
             str = str + ":tyr";
-            int a = 1 / 0;
+//            int a = 1 / 0;
             return str;
         } catch (Exception e) {
             System.out.println("catch:" + str);
@@ -48,7 +48,7 @@ public class Math {
             System.out.println("finally:" + str);
             str = "finally:" + str;
             System.out.println("finally is running......");
-            return str;
+//            return str;
         }
     }
 }
