@@ -31,6 +31,8 @@ public class Singleton {
     }
 
     public static void main(String[] args) {
-        Singleton.getInstance();
+        Singleton instance = Singleton.getInstance();
+        Singleton instance2 = Singleton.getInstance();
+        System.out.println(instance == instance2);
     }
 }

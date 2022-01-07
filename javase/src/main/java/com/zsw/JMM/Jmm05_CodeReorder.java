@@ -1,4 +1,4 @@
-package com.yg.edu.jmm;
+package com.zsw.JMM;
 
 import com.yg.edu.jmm.util.UnsafeInstance;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.yg.edu.jmm;
+package com.zsw.JMM;
 
 import com.sun.xml.internal.ws.developer.MemberSubmissionAddressingFeature;
 
