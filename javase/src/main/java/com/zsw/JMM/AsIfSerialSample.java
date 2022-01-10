@@ -1,4 +1,4 @@
-package com.yg.edu.jmm;
+package com.zsw.JMM;
 
 /**
  * @author ：图灵-杨过
@@ -17,9 +17,10 @@ public class AsIfSerialSample {
          * 以下例子当中1、2步存在指令重排行为，但是1、2不能与第三步指令重排
          * 也就是第3步不可能先于1、2步执行，否则将改变程序的执行结果
          */
-        double p = 3.14; //1
-        double r = 1.0; //2
+        double p = 3.14; //第1步
+        double r = 1.0; //第2步
         double area = p * r * r; //3计算面积
+        System.out.println(area);
     }
 
 }

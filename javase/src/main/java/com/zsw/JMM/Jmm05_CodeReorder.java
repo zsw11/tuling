@@ -4,15 +4,6 @@ import com.yg.edu.jmm.util.UnsafeInstance;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- *                  ,;,,;
- *                ,;;'(    社
- *      __      ,;;' ' \   会
- *   /'  '\'~~'~' \ /'\.)  主
- * ,;(      )    /  |.     义
- *,;' \    /-.,,(   ) \    码
- *     ) /       ) / )|    农
- *     ||        ||  \)     
- *     (_\       (_\
  * @author ：杨过
  * @date ：Created in 2020/4/29 14:07
  * @version: V1.0

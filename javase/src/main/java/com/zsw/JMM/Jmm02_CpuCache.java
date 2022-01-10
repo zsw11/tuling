@@ -1,15 +1,6 @@
-package com.yg.edu.jmm;
+package com.zsw.JMM;
 
 /**
- *                  ,;,,;
- *                ,;;'(    社
- *      __      ,;;' ' \   会
- *   /'  '\'~~'~' \ /'\.)  主
- * ,;(      )    /  |.     义
- *,;' \    /-.,,(   ) \    码
- *     ) /       ) / )|    农
- *     ||        ||  \)     
- *     (_\       (_\
  * @author ：杨过
  * @date ：Created in 2020/4/29 14:00
  * @version: V1.0
@@ -34,6 +25,13 @@ public class Jmm02_CpuCache {
                 longs[i][j] = 1L;
             }
         }
+        for (int i = 0; i < longs[i].length; i++) {
+            for (int j = 0; j < longs[j].length; j++) {
+                System.out.print(longs[i][j]);
+            }
+            System.out.println();
+        }
+
         System.out.println("初始化完毕....");
 
         long sum = 0L;
