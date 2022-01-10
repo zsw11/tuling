@@ -1,4 +1,4 @@
-package com.yg.edu.jmm;
+package com.zsw.JMM;
 
 /**
  *

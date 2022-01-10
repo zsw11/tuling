@@ -1,17 +1,8 @@
-package com.yg.edu.jmm;
+package com.zsw.JMM;
 
 import com.yg.edu.jmm.util.UnsafeInstance;
 
 /**
- * ,;,,;
- * ,;;'(    社
- * __      ,;;' ' \   会
- * /'  '\'~~'~' \ /'\.)  主
- * ,;(      )    /  |.     义
- * ,;' \    /-.,,(   ) \    码
- * ) /       ) / )|    农
- * ||        ||  \)
- * (_\       (_\
  *
  * @author ：杨过
  * @date ：Created in 2020/4/29
