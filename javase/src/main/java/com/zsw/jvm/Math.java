@@ -4,6 +4,7 @@ import org.omg.PortableInterceptor.INACTIVE;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.TreeSet;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -19,6 +20,14 @@ public class Math {
     public static void main(String[] args) {
         String test = test();
         System.out.println(test);
+        TreeSet<Object> objects = new TreeSet<>();
+        User user = new User(8,"3");
+        User user2 = new User(9,"3");
+        User user3 = new User(10,"3");
+        objects.add(user);
+        objects.add(user2);
+        objects.add(user3);
+        System.out.println(objects);
 //        Integer a = 150;
 //        Integer b = 150;
 //        List<String> strings = new ArrayList<String>();
